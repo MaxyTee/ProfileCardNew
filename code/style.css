@@ -52,7 +52,8 @@ figure img {
 }
 
 secton ul{
-  display: flex,
+  display: flex;
+  gap: 0.6rem;
 }
 
 nav {
@@ -74,6 +75,7 @@ nav {
 .btn a {
   text-decoration: none;
 }
+
 
 
 
