@@ -67,6 +67,11 @@ figure img {
   list-style-type: square
 }
 
+.wrap-section  li::marker {
+    color: #eee;
+    font-size: 20px;
+  }
+
 nav {
   align-self: center;
 }
@@ -96,6 +101,7 @@ nav {
 .btn a {
   text-decoration: none;
 }
+
 
 
 
