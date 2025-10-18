@@ -18,13 +18,46 @@ body {
 
 .profile-card {
   text-align: center;
-  background: #fff;
+  background-color: #fff;
   width: 26rem;
   padding: 1rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.profile-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(#ff6b6b, #f8e71c, #50e3c2, #4a90e2, #ff6b6b);
+  animation: rotate 5s linear infinite;
+  z-index: -1;
+}
+
+.profile-card::after {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  background: #fff;
+  border-radius: 12px;
+  z-index: -1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 figure img {
@@ -93,4 +126,3 @@ nav {
 .btn a {
   text-decoration: none;
 }
-
