@@ -53,7 +53,6 @@ figure img {
 
 .wrap-section {
   display: flex;
-  flex-direction: column;
   gap: 1rem;
   text-align: left;
   justify-content: space-between;
@@ -93,3 +92,4 @@ nav {
 .btn a {
   text-decoration: none;
 }
+
