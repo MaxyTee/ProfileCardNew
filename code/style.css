@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: papayawhip;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.profile-card {
+  text-align: center;
+  background: #fff;
+  /* max-width: 60%; */
+  width: 26rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: #555;
+}
+figure img {
+  box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.2);
+
+  width: 70%;
+  border-radius: 50%;
+}
+.user-name {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.user-info {
+  font-size: 0.8rem;
+}
+
+.user-nav-link {
+  display: flex;
+  gap: 1rem;
+}
+
+.wrap-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  margin: 0.6rem 0;
+  padding: 0.6rem 0;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+}
+
+nav {
+  align-self: center;
+}
+
+/* .dark-mode {
+  background: #111;
+}
+
+.dark-mode .profile-card {
+  background-color: black;
+  color: #fff;
+} */
+
+.btn {
+  list-style: none;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.2rem;
+  background: #eee;
+  cursor: pointer;
+  margin-top: 0.4rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fff;
+}
+.btn a {
+  text-decoration: none;
+}
