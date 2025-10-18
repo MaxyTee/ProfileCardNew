@@ -5,7 +5,7 @@
 }
 
 body {
-  background: pink;
+  background: #eee;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -63,6 +63,10 @@ figure img {
   border-bottom: 2px solid #eee;
 }
 
+.wrap-section li{
+  list-style-type: square
+}
+
 nav {
   align-self: center;
 }
@@ -92,6 +96,7 @@ nav {
 .btn a {
   text-decoration: none;
 }
+
 
 
 
