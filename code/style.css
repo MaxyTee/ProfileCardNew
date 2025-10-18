@@ -52,13 +52,13 @@ figure img {
 }
 
 .test-user-hobbies ul{
-  display: flex,
-    list-style-type: square
+  display: flex;
+    list-style-type: square;
 }
 
 .test-user-dislikes ul{
-  display: flex,
-    list-style-type: square
+  display: flex;
+    list-style-type: square;
 }
 
 
@@ -82,6 +82,7 @@ nav {
 .btn a {
   text-decoration: none;
 }
+
 
 
 
