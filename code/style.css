@@ -51,40 +51,21 @@ figure img {
   gap: 1rem;
 }
 
-.wrap-section {
-  display: flex;
-  gap: 1rem;
-  text-align: left;
-  justify-content: space-around;
-  font-size: 0.8rem;
-  margin: 0.6rem 0;
-  padding: 0.6rem 0;
-  border-top: 2px solid #eee;
-  border-bottom: 2px solid #eee;
+.test-user-hobbies ul{
+  display: flex,
+    list-style-type: square
 }
 
-.wrap-section li{
-  list-style-type: square
+.test-user-dislikes ul{
+  display: flex,
+    list-style-type: square
 }
 
-.wrap-section  li::marker {
-    color: #eee;
-    font-size: 20px;
-  }
+
 
 nav {
   align-self: center;
 }
-
-/* .dark-mode {
-  background: #111;
-}
-
-.dark-mode .profile-card {
-  background-color: black;
-  color: #fff;
-} */
-
 .btn {
   list-style: none;
   padding: 0.2rem 0.6rem;
@@ -101,6 +82,7 @@ nav {
 .btn a {
   text-decoration: none;
 }
+
 
 
 
